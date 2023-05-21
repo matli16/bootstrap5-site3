@@ -8,8 +8,7 @@
 }
 
 .services{
-    background-color:;
-    position: absolute;
+    position: relative;
     text-align: center;
     margin-left:6%;
     margin-top: 8%;
@@ -52,7 +51,106 @@
 #mainNavbar .navbar-nav .nav-item .nav-link:hover {
     color: white;
 }
+/*button*/
 
+/* CSS */
+.button-6 {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: #14549a;
+  box-shadow: #14549a 0 4px 12px;
+  color:#14549a;
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-6:active {
+  background-color: #F0F0F1;
+  border-color: #14549a;
+  box-shadow: #14549a 0 2px 4px;
+  color: #14549a;
+  transform: translateY(0);
+}
+
+/* services start */
+
+.mySection{
+    padding: 6rem 0;
+    margin-top:2000px;
+}
+.mySection h2.s-heading{
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: "Montserrat",system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.mySection h3.s-subheading{
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: italic;
+    font-family: "Roboto Slab",system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*contact start*/
+.contact{
+    z-index: 3;
+}
+
+#contact {
+    margin-top: 2%;
+    background-color: #14549a;
+    background-repeat: no-repeat;
+    background-image: url("../../img/map.png");
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    padding: 5%;
+
+}
+#contact input{
+    margin-top: 2.2rem;
+    padding-bottom: 2.2rem;
+}
+#contact .form-textarea{
+    margin-top: 5.2%;
+    height: 82%;
+}
+#contact .form-textarea textarea{
+    height: 100%;
+    min-height: 10rem;
+}
+#contact .form-control:focus{
+    box-shadow: 1px 1px 12px black;
+}
 @media(max-width:991.98px) {
     .offcanvas-header{
         background-color: #14549a;
