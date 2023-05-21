@@ -4,6 +4,24 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: #14549a;
+    z-index: 2;
+}
+
+.services{
+    background-color:;
+    position: absolute;
+    text-align: center;
+    margin-left:6%;
+    margin-top: 8%;
+}
+.p-text{
+    text-align: justify;
+
+}
+.p-link{
+    text-decoration: none;
+    color: red;
+    text-align: justify;
 }
 
 #mainNavbar .navbar-brand {
@@ -34,9 +52,6 @@
 #mainNavbar .navbar-nav .nav-item .nav-link:hover {
     color: white;
 }
-.header{
-    padding-top: 10rem;
-    padding-bottom: 15rem;}
 
 @media(max-width:991.98px) {
     .offcanvas-header{
@@ -69,9 +84,6 @@
         width: 50%;
         height: 40%;
     }
-    header{
-        padding-top: 10rem;
-        padding-bottom: 15rem;}
     
 }
 @media(min-width:991.98px) {
